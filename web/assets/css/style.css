@@ -1,0 +1,108 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	display: block;
+}
+
+.header {
+	width: 100%;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.header .nav {
+	width: 100%;
+	display: flex;
+}
+
+.header .nav .search {
+	margin-top: 8px;
+	width: 450px;
+	height: 30px;
+	border: solid 2px #e2e0e0;
+	margin-left: 30px;
+	display: flex;
+}
+
+.header .nav input {
+	border: none;
+	width: 100%;
+	background-color: white;
+}
+
+.header .nav button {
+	border: none;
+	background-color: white;
+}
+
+.header .menu {
+	background-color: #2fa1b3;
+}
+
+.header .menu ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header .menu li {
+	color: white;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 1px solid rgba(255,255,255,.2);
+	cursor: pointer;
+}
+
+.header .menu li:hover {
+	background-color: #2b94a5;
+}
+
+.main {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.row .item {
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.container-center {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.news-img {
+	
+	border-radius: 5px;
+	max-height: 165px;
+	width: 294px;
+}
+
+.link-web {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+.link-web:hover {
+	color:#2b94a5
+}
